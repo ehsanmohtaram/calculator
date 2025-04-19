@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="519.0" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Scientific">
+   <children>
+      <Label fx:id="displayLabel" layoutX="14.0" layoutY="14.0" text="85+98=43">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="minusbtn" layoutX="441.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="-" />
+      <Button fx:id="multiplybtn" layoutX="441.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="×" />
+      <Button fx:id="num2" layoutX="298.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="2" />
+      <Button fx:id="num5" layoutX="298.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="5" />
+      <Button fx:id="dividebtn" layoutX="441.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="÷" />
+      <Button fx:id="num3" layoutX="369.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="3" />
+      <Button fx:id="num6" layoutX="369.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="6" />
+      <Button fx:id="num0" layoutX="298.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="0" />
+      <Button fx:id="equalbtn" layoutX="369.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="=" />
+      <Button fx:id="plusbnt" layoutX="441.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="+" />
+      <Button fx:id="num8" layoutX="298.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="8" />
+      <Button fx:id="num9" layoutX="369.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="9" textAlignment="CENTER" />
+      <Button fx:id="tanbtn" layoutX="156.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="tan" />
+      <Button fx:id="cosbtn" layoutX="156.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="cos" />
+      <Button fx:id="num1" layoutX="227.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="1" />
+      <Button fx:id="num4" layoutX="227.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="4" />
+      <Button fx:id="factorialbtn" layoutX="156.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="n!" />
+      <Button fx:id="clearbtn" layoutX="227.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="!" />
+      <Button fx:id="sinbtn" layoutX="156.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="sin" />
+      <Button fx:id="num7" layoutX="227.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="7" />
+      <Button fx:id="pibtn" layoutX="14.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="π" />
+      <Button fx:id="logbtn" layoutX="14.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="log" />
+      <Button fx:id="ebtn" layoutX="14.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="e" />
+      <Button fx:id="absbtn" layoutX="14.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="|x|" />
+      <Button fx:id="power2btn" layoutX="85.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="^2" />
+      <Button fx:id="powernbtn" layoutX="85.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="^n" />
+      <Button fx:id="modbtn" layoutX="85.0" layoutY="298.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="\%" />
+      <Button fx:id="radicalbtn" layoutX="85.0" layoutY="79.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="65.0" styleClass="scientificBtn" onAction="#handle" text="√" />
+      <Button fx:id="hisbtn" layoutX="459.0" layoutY="15.0" mnemonicParsing="false" onAction="#handle" text="History">
+         <styleClass>
+            <String fx:value="smallbtn" />
+            <String fx:value="scientificBtn" />
+         </styleClass>
+      </Button>
+      <Button fx:id="changebnt" layoutX="459.0" layoutY="46.0" mnemonicParsing="false" onAction="#handle" text="Normal">
+         <styleClass>
+            <String fx:value="smallbtn" />
+            <String fx:value="scientificBtn" />
+         </styleClass>
+      </Button>
+   </children>
+</Pane>

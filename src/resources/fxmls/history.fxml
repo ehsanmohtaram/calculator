@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+   </padding>
+   <content>
+      <VBox>
+         <children>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="5555=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="546555">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="270.0" spacing="2.0" visible="false">
+               <children>
+                  <Label text="22+33=">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Label text="55">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

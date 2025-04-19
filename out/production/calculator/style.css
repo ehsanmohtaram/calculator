@@ -1,0 +1,42 @@
+.root{
+    -fx-background-color: #c5d9ed;
+}
+#label{
+    -fx-text-fill : green;
+}
+.button{
+    -fx-min-width : 65;
+    -fx-min-height : 67;
+}
+.scientificBtn{
+    /* -fx-background-color:#FFFFFF; */
+    -fx-min-width : 65;
+    -fx-min-height : 67;
+    -fx-background-color :#043959;
+    -fx-font-family :System;
+    -fx-font-size : 20 px;
+    -fx-font-weight:bold;
+    -fx-text-fill : #FFF;
+
+}
+.scientificBtn:hover{
+    -fx-background-color:#01263a;
+}
+.scientificBtn:pressed{
+    -fx-background-color:#00131c;
+}
+#history{
+    -fx-min-width : 35;
+    -fx-min-height : 30;
+    
+}
+#historybtn{
+    -fx-font-size : 10 px;
+    -fx-min-width : 35;
+    -fx-min-height : 25;
+}
+.smallbtn{
+    -fx-font-size : 10 px;
+    -fx-min-width : 35;
+    -fx-min-height : 25;
+}
